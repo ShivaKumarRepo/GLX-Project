@@ -1,0 +1,15 @@
+.header{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    text-align: center;
+}

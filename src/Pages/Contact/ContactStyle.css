@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+form .filld {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form input {
+  background-color: #080808;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none;
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+form .form-button button {
+  background-color: #080808;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-size: 15px;
+}
